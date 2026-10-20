@@ -4,29 +4,30 @@ const LT = 'https://forms.gle/Pz8ktExDyrrn8kM99';
 const LTS = 'https://chat.whatsapp.com/C29ZciAGacD7fIRwcMhw3y';
 const LTP = 'https://chat.whatsapp.com/Ihgdq2vCTXg7EGxnLnwJR2';
 const LTF = 'https://sigaa.ufrn.br/sigaa/public/curso/portal.jsf?id=2000002&lc=pt_BR';
+const LTE = 'assets/docs/estatuto-pdca.pdf'; // <-- Caminho do seu PDF
 
 const LINKS = [
     // cat: comunicados | oportunidades | eventos (pode combinar separando por espaço)
     {
         cat: 'comunicados', hl: true, icon: 'inbox', color: '#7353FF', tag: 'Canal aberto', title: 'Ouvidoria PDCA',
         desc: 'Dúvida, sugestão ou precisa de ajuda? Fale com a gente.', url: LT
-    },          // TODO: link real
+    },
     {
         cat: 'oportunidades', icon: 'trend', color: '#4596AC', title: 'Oportunidades em ADM',
         desc: 'Estágios, trainees, bolsas e projetos na UFRN.', url: LTS
-    },                    // TODO: link real
+    },
     {
         cat: 'oportunidades comunicados', icon: 'chat', color: '#34D399', title: 'Comunidade Administração UFRN',
         desc: 'Grupos oficiais de avisos e integração no WhatsApp.', url: LTP
-    },               // TODO: link real
+    },
     {
         cat: 'oportunidades', icon: 'globe', color: '#4385DC', title: 'Página da Coordenação',
         desc: 'Portal do curso de Administração, contatos e SIGAA.', url: LTF
-    },               // TODO: link real
+    },
     {
         cat: 'comunicados', icon: 'book', color: '#3F5AE0', title: 'Estatuto & Documentos',
-        desc: 'Transparência, atas e regimento interno do Centro Acadêmico.', //sem link
-    },      // TODO: link real
+        desc: 'Transparência, atas e regimento interno do Centro Acadêmico.', url: LTE
+    },
 ];
 /* ======================== */
 
