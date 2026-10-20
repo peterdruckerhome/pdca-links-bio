@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>PDCA UFRN | Links Oficiais</title>
+    <meta name="description"
+        content="Peter Drucker Centro Acadêmico de Administração da UFRN – Gestão Essentia. Todos os nossos links em um só lugar.">
+    <meta name="theme-color" content="#0D1030">
+    <meta property="og:title" content="PDCA UFRN | Gestão Essentia">
+    <meta property="og:description" content="Ouvidoria, oportunidades, comunidade, ADM Summit e mais.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://pdca.ufrn.br/assets/img/Logo PDCA.png">
+    <link rel="icon" href="assets/img/logo-pdca.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="top">
+            <a class="pill glass" href="https://maps.google.com/?q=Setor+1+UFRN+Natal+RN" target="_blank"
+                rel="noopener">
+                <svg class="i" viewBox="0 0 24 24" data-ic="pin"></svg><span>Setor 1 · UFRN, Natal/RN</span>
+            </a>
+            <div class="btns">
+                <button class="round glass" id="themeBtn" aria-label="Alternar tema claro/escuro"><svg class="i"
+                        viewBox="0 0 24 24" id="themeIc"></svg></button>
+                <button class="round glass" id="shareBtn" aria-label="Compartilhar página"><svg class="i"
+                        viewBox="0 0 24 24" data-ic="share"></svg></button>
+            </div>
+        </div>
+
+        <header>
+            <div class="avatar">
+                <div class="ring">
+                    <img src="assets/img/logo-pdca.png" alt="Logo do PDCA UFRN" width="104" height="104"
+                        onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'fallback',textContent:'PDCA'}))">
+                </div>
+                <span class="badge">Gestão Essentia</span>
+            </div>
+            <h1>@pdca.ufrn</h1>
+            <p class="sub">Peter Drucker Centro Acadêmico de Administração da UFRN</p>
+            <p class="loc">Representando os estudantes de Administração</p>
+
+            <div class="stories">
+                <button class="story" data-filter="eventos"><span class="c" style="background:#4385DC"><svg class="i"
+                            viewBox="0 0 24 24" data-ic="camera"></svg></span>Fotos e Vídeos</button>
+                <button class="story" data-filter="comunicados"><span class="c"
+                        style="background:#99C5F4;color:#0D1030"><svg class="i" viewBox="0 0 24 24"
+                            data-ic="mega"></svg></span>Comunicados</button>
+                <button class="story" data-filter="eventos"><span class="c" style="background:#3F5AE0"><svg class="i"
+                            viewBox="0 0 24 24" data-ic="cal"></svg></span>Atos e Eventos</button>
+            </div>
+        </header>
+
+        <a class="summit" href="https://www.instagram.com/adm.summit/" target="_blank" rel="noopener">
+            <div>
+                <span class="tag t">Retrospectiva &amp; Novidades</span>
+                <h2>ADM<span class="tag p">Summit 26</span></h2>
+                <p>Os Caminhos e Desafios da Administração para as Novas Gerações · Confira a cobertura em @adm.summit
+                </p>
+            </div>
+            <span class="go"><svg class="i" viewBox="0 0 24 24" data-ic="up"></svg></span>
+        </a>
+
+        <nav aria-label="Filtrar links" id="tabs">
+            <button data-filter="all" aria-pressed="true">Todos</button>
+            <button data-filter="comunicados" aria-pressed="false">Ouvidoria &amp; CA</button>
+            <button data-filter="oportunidades" aria-pressed="false">Estudante &amp; Vagas</button>
+            <button data-filter="eventos" aria-pressed="false">Eventos &amp; Fotos</button>
+        </nav>
+
+        <section id="list" aria-live="polite"></section>
+
+        <section class="socials">
+            <a class="glass" href="https://www.instagram.com/pdca.ufrn/" target="_blank" rel="noopener"><svg class="i"
+                    viewBox="0 0 24 24" data-ic="ig" style="color:var(--purple)"></svg>@pdca.ufrn</a>
+            <a class="glass" href="https://www.instagram.com/adm.summit/" target="_blank" rel="noopener"><svg class="i"
+                    viewBox="0 0 24 24" data-ic="ig" style="color:var(--teal)"></svg>@adm.summit</a>
+            <button class="glass" id="mailBtn"><svg class="i" viewBox="0 0 24 24" data-ic="mail"
+                    style="color:var(--sky)"></svg><span id="mailLbl">Copiar e-mail</span></button>
+        </section>
+
+        <aside class="quote glass">
+            <p>“A melhor maneira de prever o futuro é criá-lo.”</p>
+            <cite>Peter Drucker</cite>
+        </aside>
+
+        <footer>
+            <strong>PDCA · Gestão Essentia · UFRN</strong><br>
+            Setor 1 · Campus Universitário Lagoa Nova, Natal/RN
+        </footer>
+    </main>
+
+    <div id="toast" role="status"></div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
